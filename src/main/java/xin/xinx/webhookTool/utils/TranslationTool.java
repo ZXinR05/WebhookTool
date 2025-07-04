@@ -3,7 +3,6 @@ package xin.xinx.webhookTool.utils;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.TranslatableComponent;
 import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer;
 import net.kyori.adventure.translation.GlobalTranslator;
 

@@ -10,7 +10,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import xin.xinx.webhookTool.listener.PlayerListener;
 import xin.xinx.webhookTool.listener.ServerListener;
 import xin.xinx.webhookTool.utils.TranslationTool;
-import xin.xinx.webhookTool.utils.WebHookSender;
 
 import java.io.IOException;
 import java.io.InputStream;

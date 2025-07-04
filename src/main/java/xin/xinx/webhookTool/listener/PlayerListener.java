@@ -3,21 +3,17 @@ package xin.xinx.webhookTool.listener;
 import com.google.gson.JsonObject;
 import io.papermc.paper.event.player.AsyncChatEvent;
 import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.TranslatableComponent;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.*;
-import org.slf4j.LoggerFactory;
 import xin.xinx.webhookTool.WebhookTool;
 import xin.xinx.webhookTool.utils.TranslationTool;
 import xin.xinx.webhookTool.utils.WebHookSender;
 
-import java.text.SimpleDateFormat;
 import java.time.Instant;
-import java.util.Objects;
 import java.util.logging.Logger;
 
 

@@ -1,4 +1,6 @@
 name: WebhookTool
-version: '1.0-SNAPSHOT'
+version: '1.0.0'
+author: ZXinR05
+website: https://github.com/ZXinR05/WebhookTool
 main: xin.xinx.webhookTool.WebhookTool
 api-version: '1.21'
