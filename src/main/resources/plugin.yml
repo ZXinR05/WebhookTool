@@ -1,0 +1,4 @@
+name: WebhookTool
+version: '1.0-SNAPSHOT'
+main: xin.xinx.webhookTool.WebhookTool
+api-version: '1.21'

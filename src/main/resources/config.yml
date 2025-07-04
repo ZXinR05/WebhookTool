@@ -1,0 +1,15 @@
+debug: false
+
+urls:
+  - "http://example1.com"
+  - "http://example2.com"
+
+webhook_token:
+
+webhooks:
+  player_join: true
+  player_quit: true
+  player_dead: true
+  player_chat: true
+  player_advancement: true
+  server_start: true
