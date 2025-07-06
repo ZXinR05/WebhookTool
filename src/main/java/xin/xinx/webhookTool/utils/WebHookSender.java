@@ -19,7 +19,10 @@ public class WebHookSender {
     private static final String webhookToken = WebhookTool.getInstance().webhookToken;
     private static void send(String url, JsonObject jsonObject) {
         boolean isActive = webhookMap.getOrDefault(jsonObject.get("event").getAsString(), false);
-        if (!isActive) return;
+        if (!isActive) {
+            WebhookTool.getInstance().debug(jsonObject.get("event").getAsString() + "is inactive");
+            return;
+        }
         if (webhookToken == null) {
             WebhookTool.getInstance().logger.warning("webhook_token is empty!");
             return;

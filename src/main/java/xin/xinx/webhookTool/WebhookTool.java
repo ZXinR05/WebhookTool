@@ -33,6 +33,7 @@ public final class WebhookTool extends JavaPlugin {
         initialize();
         PluginManager pluginManager = Bukkit.getPluginManager();
         pluginManager.registerEvents(new PlayerListener(this), this);
+        pluginManager.registerEvents(new ServerListener(this), this);
     }
 
     @Override

@@ -13,3 +13,4 @@ webhooks:
   player_chat: true
   player_advancement: true
   server_start: true
+  server_stop: true
