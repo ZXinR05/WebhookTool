@@ -86,7 +86,7 @@ public class PlayerListener implements Listener {
     }
 
     @EventHandler
-    public  void onPlayerChat(AsyncChatEvent event) {
+    public void onPlayerChat(AsyncChatEvent event) {
         String eventName = "player_chat";
         Player player = event.getPlayer();
         String playerName = player.getName();
