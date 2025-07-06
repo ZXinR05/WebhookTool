@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'xin.xinx'
-version = '1.21.x'
+version = '1.21.6'
 
 repositories {
     mavenCentral()
